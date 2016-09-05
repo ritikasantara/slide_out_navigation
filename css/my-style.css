@@ -7,9 +7,9 @@
   height: 3000px;
   
     margin:0 auto;
-    background-color: #f7f7f8;
+    background-color: #fdfdfd;
     position: relative;
-    border-top: 20px solid #f7f7f8;
+    border-top: 20px solid #fdfdfd;
     transition-duration: 0.199s;
     transition-timing-function: ease-out;
 
@@ -18,7 +18,7 @@
 
 
 
-#top-row{
+.top-row{
 
 	display: flex;
 	flex-direction: row;
@@ -32,7 +32,7 @@
 #menu_toggle{
 
   font-size: 30px;
-  color: grey;
+  color: dimgrey;
   cursor: pointer;
 
 
@@ -53,7 +53,7 @@ margin-top: -20px;
 #contactnsearch{
 
   margin-top:2px;
-  color: grey;
+  color: dimgrey;
   clear:both;
 
 }
@@ -61,12 +61,12 @@ margin-top: -20px;
 
 .menubar{
 
-  background-color: darkgrey;
+  background-color: #00063f;
   opacity:0.5;
   width:960px;
   height: 50px;
   clear:both;
-  margin-top:-67px;
+  margin-top: -67px;
   position:absolute;
   float:left;
   margin-left: 0;
@@ -75,21 +75,76 @@ margin-top: -20px;
 }
 
 
+.menubar ul{margin-left: -20px;}
+
+
+
 .menubar-items li{
 
   float:left;
-  margin-left: 20px;
-  padding: 20px;
+  
+  margin-top: -16px;
   list-style-type: none;
-  color: ghostwhite;
-  font-family: ubuntu , sans-serif;
+ 
+ font-family: 'Titillium Web', sans-serif;
 }
 
-#paragraph{
+.menubar .menubar-items li a{
+
+  padding : 13px 19px;
+  display: block;
+  text-decoration: none;
+  border-right: 2px solid grey;
+  cursor: pointer;
+  color: ghostwhite;
+}
+
+.menubar .menubar-items li:last-child a{
+
+  border-right: none;
+
+}
+
+.menubar .menubar-items a:hover{
+
+  background-color: #505586;
+  }
+
+
+.contacticons li {
+
+  float:right;
+    margin-top: -17px;
+    display: block;
+    
+  list-style-type: none;
+   padding : 15px 19px;
+   
+
+}
+
+.contacticons a{
+
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+
+}
+
+.contacticons a:hover{
+
+  color: grey;
+}
+
+
+
+#paragraph p{
 
 	 padding-right: 20px;
 	 padding-left: 20px;
-   font-family: ubuntu,sans-serif;
+   font-family: 'Titillium Web', sans-serif;
+   font-size: 15px;
 }
 
 p{
@@ -108,7 +163,7 @@ h2{
 
    font-family: 'Allura', cursive;
    font-size: 44px;
-   background: -webkit-linear-gradient(#be2c2c, #e4c061);
+   background: -webkit-linear-gradient(#d93c77, #e4c061);
    text-shadow: 0 0 3px 6px black ;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
@@ -170,7 +225,9 @@ hr{
   z-index: 0;
   width: 150px;
   padding: 30px;
-  background-color: #333;
+  background-color: #7276a2;
+
+  
   clear:both;
   transition-duration: 0.199s;
   transition-timing-function: ease-out;
@@ -178,9 +235,9 @@ hr{
 
 .sidebar li{
 
-  color: rgba(255,255,255,0.8);
+  color: ghostwhite;
   list-style-type: none;
-  font-family: ubuntu,sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 15px;
   margin-left: -32px;
   margin-bottom: 18px;
@@ -193,7 +250,7 @@ hr{
 .sidebar li:hover{
 
   cursor: pointer;
-  color: rgba(255,255,255,1);
+  color: grey;
 }
 
 
@@ -203,7 +260,7 @@ hr{
 }
 
 #sidebartoggler:checked + .bodybg .sidebar{
-  
+
   left: 0;
 
 }
@@ -217,11 +274,9 @@ hr{
 
 }
 
+hr{
 
-
-
-
-
+  width: 70%;
 
 
 
