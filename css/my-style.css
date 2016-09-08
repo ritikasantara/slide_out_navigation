@@ -4,12 +4,13 @@
 	margin:0;
 	padding:0;
 	width: 70%;
-  height: 3000px;
+  
+  
   
     margin:0 auto;
-    background-color: #fdfdfd;
+    background-color: #fff8f8;
     position: relative;
-    border-top: 20px solid #fdfdfd;
+    border-top: 20px solid #fff8f8;
     transition-duration: 0.199s;
     transition-timing-function: ease-out;
 
@@ -37,7 +38,7 @@
 
 
 }
-
+ 
 #bottom-image{
     
     display:inline-block;
@@ -182,10 +183,10 @@ h3{
 
    font-family: 'Titillium Web', sans-serif;
    font-size: 18px;
-   float: left;
+   
    padding-left: 30px;
    color: ghostwhite;
-   line-height: 50%;
+   
 
 
  }
@@ -194,10 +195,13 @@ h3{
 
    width: 100%;
    height: 50px;
+   line-height: 45px;
    background-color: #00063f;
    margin-top: 40px;
    opacity: 0.5;
- 
+   
+   
+   
 
 }
 
@@ -230,10 +234,18 @@ hr{
   flex-direction: row;
   justify-content: center;
   clear: both;
-  margin-top: 20px;
+  background-color: lavenderblush;
+  margin-bottom: 40px;
+  
+  
 
 
   
+}
+
+.top3imagemargin{
+
+  margin-top: 20px;
 }
 
 .image{
@@ -258,7 +270,7 @@ hr{
 
 .adv{
 
-  width: 30%;
+  waidth: 30%;
   float: right;
   height: 300px;
   background-color: honeydew;
@@ -334,22 +346,37 @@ hr{
 
 .bottombar{
 
-
-  clear: both;
+  width: 60%;
+  height: 50px;
+  line-height: 45px;
+  background-color: #00063f;
+  opacity: 0.5;
+  margin-top: -40px;
+ 
+  
+  
+ 
+  
 }
 
 .trending_images{
+  
+  
+  width: 60%;
+  background-color: linen;
 
-  float: left;
 
 }
 
 .image_trend{
 
+
+
   width: 60px;
   height: 60px;
   margin-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+
 
 }
 
@@ -358,7 +385,145 @@ hr{
   width: auto;
   height: auto;
   box-shadow: 0px 0px 4px 2px #CCC;
+
+
+}
+
+.image_trend img:first-child{
+
+  margin-top: 10px;
 }
 
 
 
+
+
+.span_trend{
+
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  
+  position: relative;
+  left: 149px;
+
+  top: -34px;
+  
+}
+
+.span_trend a{
+
+  text-decoration: none;
+  color: black;
+}
+
+
+#trending_vlogs{
+
+  float:right;
+  position: relative;
+  right:0;
+  top: -520px;
+  width: 38%;
+  height: 50px;
+  line-height: 13px;
+  background-color: #00063f;
+  opacity: 0.5;
+  
+}
+
+.vlog_body{
+
+  width: 38%;
+  background-color: linen;
+  position: relative;
+  float:right;
+  right: -38%;
+  top: -470px;
+
+
+}
+
+iframe{
+
+  margin-top: 10px;
+  margin-left: calc(50% - 103px);
+}
+
+iframe:last-child{
+
+  margin-bottom: 10px;
+}
+
+#article{
+
+  font-family: 'Allura',sans-serif;
+  color: black;
+  font-weight: bold;
+  clear:both;
+}
+
+#article p{
+
+  font-family: 'Allura',sans-serif;
+  font-size: 15px;
+  color: black;
+}
+.footer_bar{
+
+  width: 100%;
+  margin-top: 52px;
+  background-color: peachpuff;
+  height: 70px;
+}
+#rulebottom{clear:both;margin-top: -100px;}
+
+.footer_bar span{
+
+  display:inline-block;
+  margin-top: 20px;
+  margin-left: 0px;
+  font-size: 14px;
+  font-family:'Titillium Web', sans-serif;
+  color: black;
+}
+
+.footer_bar span a{
+
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+#clientsheading{
+
+   width: 100%;
+   height: 50px;
+   line-height: 45px;
+   background-color: #00063f;
+   margin-top: 50px;
+   opacity: 0.5;
+   clear: both;
+  
+}
+
+.ads{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+}
+
+.ads img{
+   
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.ads img:nth-child(2){
+
+  margin-top: 70px;
+}
