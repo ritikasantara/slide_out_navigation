@@ -4,15 +4,12 @@
 	margin:0;
 	padding:0;
 	width: 70%;
-  
-  
-  
-    margin:0 auto;
-    background-color: #fff8f8;
-    position: relative;
-    border-top: 20px solid #fff8f8;
-    transition-duration: 0.199s;
-    transition-timing-function: ease-out;
+  margin:0 auto;
+  background-color: white;
+  position: relative;
+  border-top: 20px solid #fff8f8;
+  transition-duration: 0.199s;
+  transition-timing-function: ease-out;
 
 }
 
@@ -41,10 +38,9 @@
  
 #bottom-image{
     
-    display:inline-block;
-
-margin-top: -20px;
-   box-shadow: 0px 0px 4px 0px #CCC;
+  display:inline-block;
+  margin-top: -20px;
+  box-shadow: 0px 0px 4px 0px #CCC;
 
 	
 	-webkit-filter: saturate(50%);
@@ -54,16 +50,20 @@ margin-top: -20px;
 #contactnsearch{
 
   margin-top:2px;
-  color: dimgrey;
   clear:both;
 
+}
+
+#contactnsearch a{
+
+  color: dimgrey;
 }
 
 
 .menubar{
 
-  background-color: #00063f;
-  opacity:0.5;
+  /*background-color: #00063f;*/
+  background-color: #ee8890;
   width:100%;
   height: 50px;
   clear:both;
@@ -84,11 +84,9 @@ margin-top: -20px;
 .menubar-items li{
 
   float:left;
-  
   margin-top: -16px;
   list-style-type: none;
- 
- font-family: 'Titillium Web', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .menubar .menubar-items li a{
@@ -96,7 +94,7 @@ margin-top: -20px;
   padding : 13px 19px;
   display: block;
   text-decoration: none;
-  border-right: 2px solid grey;
+  border-right: 2px solid #f2e0f1;
   cursor: pointer;
   color: ghostwhite;
 }
@@ -109,7 +107,7 @@ margin-top: -20px;
 
 .menubar .menubar-items a:hover{
 
-  background-color: #505586;
+  background-color: grey;
   }
 
 
@@ -161,7 +159,7 @@ p{
 
 
 
-h2{
+#rosegold_title{
 
    font-family: 'Allura', cursive;
    font-size: 44px;
@@ -196,16 +194,22 @@ h3{
    width: 100%;
    height: 50px;
    line-height: 45px;
-   background-color: #00063f;
+   background-color: #97c598;
    margin-top: 40px;
-   opacity: 0.5;
+   
    
    
    
 
 }
 
-h5{
+#polka_title{
+
+
+  margin-left: 290px;
+}
+
+#beauty_req_title{
    font-family: 'Parisienne', cursive;
    font-size: 15px;
    color: black;
@@ -268,16 +272,7 @@ hr{
   
 }
 
-.adv{
 
-  waidth: 30%;
-  float: right;
-  height: 300px;
-  background-color: honeydew;
-  display: inline-block;
-  position: relative;
-  margin-top: 10px;
-}
 
 .sidebar{
 
@@ -289,7 +284,7 @@ hr{
   z-index: 0;
   width: 150px;
   padding: 30px;
-  background-color: #7276a2;
+  background-color: #7374a9;
 
   
   clear:both;
@@ -349,21 +344,15 @@ hr{
   width: 60%;
   height: 50px;
   line-height: 45px;
-  background-color: #00063f;
-  opacity: 0.5;
-  margin-top: -40px;
- 
-  
-  
- 
-  
+  background-color: #97c598;
+    
 }
 
 .trending_images{
   
   
   width: 60%;
-  background-color: linen;
+  background-color: lavenderblush;
 
 
 }
@@ -416,6 +405,12 @@ hr{
   color: black;
 }
 
+.span_trend a:hover{
+
+  color: dimgrey;
+}
+
+
 
 #trending_vlogs{
 
@@ -426,19 +421,19 @@ hr{
   width: 38%;
   height: 50px;
   line-height: 13px;
-  background-color: #00063f;
-  opacity: 0.5;
+  background-color: #97c598;
+  
   
 }
 
 .vlog_body{
 
   width: 38%;
-  background-color: linen;
+  background-color: lavenderblush;
   position: absolute;
   float:right;
   right: 0;
-  top: 1915px;
+  top: 1953px;
 
 
 }
@@ -466,8 +461,7 @@ iframe:last-child{
   font-family: 'Allura',sans-serif;
   color: black;
   font-size: 20px;
-  font-weight: bold;
-  margin-left: 50px;
+  margin-left: 20px;
   
 
  
@@ -478,8 +472,11 @@ iframe:last-child{
 #article img{
 
 display: block;
+float:left;
+margin-right: 20px;
 
 }
+
 
 
 
@@ -491,9 +488,9 @@ display: block;
    width: 100%;
    height: 50px;
    line-height: 45px;
-   background-color: #00063f;
-   margin-top: 50px;
-   opacity: 0.5;
+   background-color: #ee8890;
+   margin-top: 70px;
+  
    
   
 }
@@ -518,7 +515,7 @@ display: block;
 
   width: 100%;
   margin-top: 52px;
-  background-color: peachpuff;
+  background-color: #ee8890;
   height: 70px;
 }
 
@@ -526,7 +523,7 @@ display: block;
 
   display:inline-block;
   margin-top: 20px;
-  margin-left: 0px;
+  margin-left: 340px;
   font-size: 14px;
   font-family:'Titillium Web', sans-serif;
   color: black;
