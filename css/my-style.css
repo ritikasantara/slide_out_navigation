@@ -218,6 +218,7 @@
    line-height: 45px;
    background-color: #87bcc2;
    margin-top: 40px;
+   
       
 
 }
@@ -232,7 +233,7 @@
   flex-direction: row;
   justify-content: center;
   clear: both;
-  
+  background-color: rgba(228, 228, 228, 0.5);
   margin-bottom: 40px;
   
   
@@ -432,7 +433,7 @@ hr{
   position: absolute;
   float:right;
   right: 0;
-  top: 1953px;
+  top: 1973px;
 
 
 }
